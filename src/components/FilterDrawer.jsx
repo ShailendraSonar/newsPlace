@@ -24,17 +24,17 @@ const FilterDrawer = () => {
         }
     }, [search, lang, countryName]);
     return (
-        <aside className="flex flex-col relative  overflow-auto bg-slate-50 h-screen">
+        <aside className="flex flex-col relative  overflow-auto bg-slate-50 h-screen bg-[#022920] text-white">
             <h2 className="text-2xl font-bold sticky top-0 p-4">Filter</h2>
             <div className="flex flex-col gap-2 p-4">
-                <p className="text-[18px] font-medium text-violet-950">
+                {/* <p className="text-[18px] font-medium text-violet-950">
                     Search your favorite news{" "}
                     <span className="text-red-500">*</span>
-                </p>
-                <label className="input input-bordered flex items-center gap-2">
+                </p> */}
+                <label className="input input-bordered flex items-center gap-2 bg-[#fff] text-black">
                     <input
                         type="text"
-                        className="grow"
+                        className="grow text-black"
                         placeholder="Search"
                         id="q"
                         onChange={(e) => setSearch(e.target.value)}
@@ -54,13 +54,13 @@ const FilterDrawer = () => {
                 </label>
             </div>
             <div className="flex flex-col gap-2 p-4">
-                <label className="text-[18px] font-medium text-violet-950">
+                {/* <label className="text-[18px] font-medium text-violet-950">
                     Choose a language
-                </label>
+                </label> */}
                 <select
                     name="language"
                     id="language-select"
-                    className="select select-bordered "
+                    className="select select-bordered bg-[#fff] text-black"
                     onChange={(e) => setLang(e.target.value)}
                     value={lang}
                 >
@@ -94,13 +94,13 @@ const FilterDrawer = () => {
             {/*  */}
 
             <div className="flex flex-col gap-2 p-4">
-                <label className="text-[18px] font-medium text-violet-950">
+                {/* <label className="text-[18px] font-medium text-violet-950">
                     Choose a country
-                </label>
+                </label> */}
                 <select
                     name="country"
                     id="country-select"
-                    className="select select-bordered"
+                    className="select select-bordered bg-[#fff] text-black"
                     onChange={(e) => setCountryName(e.target.value)}
                     value={countryName}
                 >
@@ -142,7 +142,7 @@ const FilterDrawer = () => {
 
             <div className="flex items-center justify-end p-4 sticky bottom-0 w-[100%] ">
                 <button
-                    className="btn btn-primary"
+                    className="btn bg-[#225d3f] text-white"
                     onClick={handleSubmit}
                     disabled={disabled}
                 >

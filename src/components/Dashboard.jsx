@@ -55,7 +55,7 @@ const Dashboard = () => {
                                 {/* Page content here */}
                                 <label
                                     htmlFor="my-drawer"
-                                    className="drawer-button flex md:hidden items-center gap-2 btn btn-primary text-sm font-md"
+                                    className="drawer-button flex md:hidden items-center gap-2 btn bg-[#225d3f] text-white text-sm font-md"
                                 >
                                     <FaFilter />
                                     Filter
