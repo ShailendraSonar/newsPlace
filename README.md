@@ -1,33 +1,33 @@
 
 
-## Project Title: ACONEWS
+## Project Title: NewsPlace
 
-### Overview:
-The ACONEWS app is a news aggregator built using React Vite, Tailwind CSS, and DaisyUI. It fetches news articles from the GNews API and displays them in a responsive, The app is designed for optimal performance across mobile, tablet, and desktop devices.
+The NewsPlace app is a modern news aggregator, developed with React Vite and styled using Tailwind CSS along with DaisyUI components. It fetches and presents the latest articles from the GNews API in an intuitive and responsive layout, ensuring smooth performance across devices, from smartphones to desktops.
 
-### Tech Stack:
-- **Frontend**: React Vite, Tailwind CSS, DaisyUI
-- **API**: GNews API for fetching news articles
-- **Hosting**: Firebase Free Tier
+Tech Stack:
+Frontend: React Vite, Tailwind CSS, DaisyUI
+API: GNews API for retrieving real-time news content
+Hosting: Firebase (Free Tier)
+Key Features:
+Adaptive Design: Fully optimized for mobile, tablet, and desktop viewing experiences.
+Search Functionality: Allows users to search news articles based on keywords.
+Filter Options: Supports filtering by categories such as language and country.
+Pagination: Efficient handling of paginated news data for a seamless experience.
+Development Process:
+API Integration: Registered on GNews and utilized the API key for fetching news data.
 
-### Features:
-1. **Responsive Design**: The app adapts seamlessly to different screen sizes.
-2. **News Search**: Users can search for news articles by keywords.
-3. **Category Filters**:by language or country
-4. **Pagination**: Handles multiple pages of news.
+Frontend Implementation:
 
-### Steps Followed:
-1. **API Setup**: Registered on [GNews](https://gnews.io/) and obtained an API key.
-2. **Frontend Development**: 
-   - Used **React Vite** for fast development and build times.
-   - Designed the UI with **Tailwind CSS** for responsiveness and **DaisyUI** for prebuilt UI components.
-   - Implemented search functionality and category-based filtering.
+React Vite ensured fast development with optimized builds.
+Tailwind CSS and DaisyUI were used for responsive design and pre-built UI components.
+Implemented search and category filters for a customized news feed.
+Deployment: Hosted the app on Firebase, leveraging the Free Tier for public access.
 
-3. **Firebase Deployment**: Deployed the app using Firebase Free Tier, ensuring the app is accessible publicly.
-4. **Challenges**:
-   - Managed async API calls effectively to keep the app responsive.
-   - Overcame some issues with CSS breakpoints for perfect responsiveness on all device types.
+Challenges Addressed:
+
+Efficiently handled API requests to maintain app responsiveness.
+Fine-tuned CSS to ensure flawless breakpoints for all screen sizes.
    
 ### Project Link:
-- **Hosted App**: [https://gnews-5793c.web.app/]
-- **GitHub Repository**: [https://github.com/Shivu150199/Gnews1.1]
+- **Hosted App**: [https://news-place.vercel.app/]
+- **GitHub Repository**: [https://github.com/ShailendraSonar/newsPlace]
