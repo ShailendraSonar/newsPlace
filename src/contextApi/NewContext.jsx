@@ -15,7 +15,7 @@ export const NewsProvider = ({ children }) => {
     const [error, setError] = useState(null);
 
     const maxLimit = 10;
-
+    const apikey= '70c7315be926f831617a3de4ff9ecb07';
     useEffect(() => {
         fetchNews();
     }, [searchQuery, language, country, page, sortOrder]);
@@ -23,7 +23,7 @@ export const NewsProvider = ({ children }) => {
     // Fetch news data based on filters
     const fetchNews = async () => {
         const apiUrl = `https://gnews.io/api/v4/search?q=${searchQuery}&lang=${language}&country=${country}&max=${maxLimit}&page=${page}&sortby=${sortOrder}&apikey=${
-            import.meta.env.VITE_API_URL
+            apikey
         }`;
 
         setLoading(true);
