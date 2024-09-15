@@ -24,7 +24,7 @@ const FilterDrawer = () => {
         }
     }, [search, lang, countryName]);
     return (
-        <aside className="flex flex-col relative  overflow-auto bg-slate-50 h-screen bg-[#022920] text-white">
+        <aside className="flex flex-col relative  overflow-auto  h-screen bg-[#022920] text-white">
             <h2 className="text-2xl font-bold sticky top-0 p-4">Filter</h2>
             <div className="flex flex-col gap-2 p-4">
                 {/* <p className="text-[18px] font-medium text-violet-950">
@@ -152,5 +152,6 @@ const FilterDrawer = () => {
         </aside>
     );
 };
+
 
 export default FilterDrawer;
